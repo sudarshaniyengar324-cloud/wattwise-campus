@@ -1,0 +1,81 @@
+export const hourlyData = [
+  { time: "0:00", actual: 18, predicted: 20 },
+  { time: "1:00", actual: 16, predicted: 18 },
+  { time: "2:00", actual: 15, predicted: 16 },
+  { time: "3:00", actual: 17, predicted: 16 },
+  { time: "4:00", actual: 19, predicted: 21 },
+  { time: "5:00", actual: 23, predicted: 24 },
+  { time: "6:00", actual: 38, predicted: 35 },
+  { time: "7:00", actual: 65, predicted: 62 },
+  { time: "8:00", actual: 95, predicted: 92 },
+  { time: "9:00", actual: 124, predicted: 120 },
+  { time: "10:00", actual: 138, predicted: 135 },
+  { time: "11:00", actual: 146, predicted: 142 },
+  { time: "12:00", actual: 142, predicted: 145 },
+  { time: "13:00", actual: 148, predicted: 146 },
+  { time: "14:00", actual: 150, predicted: 148 },
+  { time: "15:00", actual: 145, predicted: 142 },
+  { time: "16:00", actual: 136, predicted: 138 },
+  { time: "17:00", actual: 122, predicted: 125 },
+  { time: "18:00", actual: 88, predicted: 91 },
+  { time: "19:00", actual: 62, predicted: 65 },
+  { time: "20:00", actual: 42, predicted: 40 },
+  { time: "21:00", actual: 28, predicted: 26 },
+  { time: "22:00", actual: 22, predicted: 24 },
+  { time: "23:00", actual: 19, predicted: 21 },
+];
+
+export const initialBuildings = [
+  {
+    id: "bld-1",
+    name: "Main Academic Block",
+    load: 54,
+    maxLoad: 100,
+    status: "optimal",
+  },
+  {
+    id: "bld-2",
+    name: "Central Library",
+    load: 68,
+    maxLoad: 100,
+    status: "warning",
+  },
+  {
+    id: "bld-3",
+    name: "CSE Laboratory",
+    load: 45,
+    maxLoad: 100,
+    status: "optimal",
+  },
+];
+
+export const initialAlerts = [
+  {
+    id: "alt-1",
+    type: "warning",
+    severity: "warning",
+    message: "HVAC power spike detected in Central Library Zone B",
+    time: "14:28:15",
+  },
+  {
+    id: "alt-2",
+    type: "critical",
+    severity: "critical",
+    message: "Peak demand threshold (145 kW) approached on Substation-1",
+    time: "14:15:40",
+  },
+  {
+    id: "alt-3",
+    type: "info",
+    severity: "info",
+    message: "AI Energy Optimization Model recalibrated successfully",
+    time: "13:50:22",
+  },
+  {
+    id: "alt-4",
+    type: "warning",
+    severity: "warning",
+    message: "Solar micro-inverter grid feed variance +8% detected",
+    time: "13:30:05",
+  },
+];
